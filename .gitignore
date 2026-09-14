@@ -1,0 +1,63 @@
+# ==========================================
+# FRONTEND - React / Vite
+# ==========================================
+
+car-rental-app-react-frontend/node_modules/
+car-rental-app-react-frontend/dist/
+car-rental-app-react-frontend/.vite/
+
+# Environment files
+car-rental-app-react-frontend/.env
+car-rental-app-react-frontend/.env.*
+!car-rental-app-react-frontend/.env.example
+
+
+# ==========================================
+# BACKEND - Spring Boot / Maven
+# ==========================================
+
+car-rental-app-spring-boot-backend/target/
+
+# Environment / local configuration
+car-rental-app-spring-boot-backend/src/main/resources/application-local.properties
+car-rental-app-spring-boot-backend/src/main/resources/application-local.yml
+
+
+# ==========================================
+# JAVA / MAVEN
+# ==========================================
+
+*.class
+*.log
+*.jar
+!**/src/**/target/
+
+
+# ==========================================
+# IDE
+# ==========================================
+
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+
+# ==========================================
+# OS
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+
+# ==========================================
+# SECRETS
+# ==========================================
+
+.env
+.env.*
+*.pem
+*.key
