@@ -164,16 +164,3 @@ npm start
 - Image upload support for vehicle listings
 - Email/SMS notifications for booking confirmations
 
----
-
-## 👨‍💻 Author
-
-**Ayaan Saifi**
-- GitHub: [@AyaanSaifi-01](https://github.com/AyaanSaifi-01)
-- Email: ayaansaifi344@gmail.com
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
